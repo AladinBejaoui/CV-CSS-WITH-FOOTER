@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Mon C.V en ligne</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <!-- J'ai crée un <header> fond bleu qui englobe la photo jpg et la div .infos
+  pour avoir un bandeau superieur avec ma photo et mon texte centré au centre de ma bande bleue-->
+  <header>
+    <div class="header">
+      <img src="avatar.jpg" alt="Je suis beau, promis">
+      <div class="infos">
+        <p id="phrase1">Votre nom</p>
+        <p id="phrase2">Développeur web junior</p>
+        <p id="phrase3">une petite description de vous et de ce que vous recherchez</p>
+      </div>
+    </div>
+  </header>
+  <!-- Ici j'ai crée une DIV "corps" ou j'ai casé une div "bandeau"(fond bleu) et des listes a l'interieur du bandeau
+  pour mettre les informations dans les listes, et au meme niveau une div "fondblanc" ( fond blanc cassé) au meme
+  niveau qui contient "centrepage" qui a son tour contient les infos du C.V , et enfin, j'ai appliqué un display:flex
+  sur le parent "corps" pour mettre les deux div cotes a cotes -->
+  <div class="corps">
+    <div class="bandeau">
+      <div class="listes">
+        <ul class="ul">
+          <li class="coordonnées">Coordonnées</li>
+          <ul class="liste">
+            <li>30 ans</li>
+            <li>80 rue de l'exemple</li>
+            <li>59000 Lille</li>
+            <li>Véhiculé</li>
+          </ul>
+        </ul>
+        <ul class="ul">
+          <li class="compétences">Compétences</li>
+          <ul class="liste">
+            <li>Motivation : excellente</li>
+            <li>Esprit d'équipe : très bon</li>
+            <li>Curiosité : a fond</li>
+            <li>HTML/CSS : débutant</li>
+          </ul>
+        </ul>
+        <ul class="ul">
+          <li class="Loisirs">Loisirs</li>
+          <ul class="liste">
+            <li>Foot</li>
+            <li>Randonnées</li>
+            <li>Code</li>
+            <li>Linux</li>
+          </ul>
+        </ul>
+      </div>
+    </div>
+    <div class="fondblanc">
+      <div class="centrepage">
+        <p id="experience">Expériences</p>
+        <p class="titreposte">Titre de poste</p>
+        <p class="infoposte">Information : durée, lieu ...</p>
+        <p class="descriposte">Description de ce que vous avez fait</p>
+        <p class="titreposte">Titre de poste</p>
+        <p class="infoposte">Information : durée, lieu ...</p>
+        <p class="descriposte">Description de ce que vous avez fait</p>
+        <p class="titreposte">Titre de poste</p>
+        <p class="infoposte">Information : durée, lieu ...</p>
+        <p class="descriposte">Description de ce que vous avez fait</p>
+      </div>
+    </div>
+  </div>
+  <!-- Footer contenant une div avec 3 div a l'interieur qui contiennent elle meme
+  chacune une image et un grand titre , la grande div qui contient le tout a un display:flex ,
+  ce qui permet aux 3 divs de s'afficher cote a cote -->
+  <footer>
+    <div class="conteneurfooter">
+      <div class="espace1">
+        <h1>Mon Facebook</h1>
+        <a href="https://www.facebook.com"><img src="facebook.png" alt="Facebook"></a>
+      </div>
+      <div class="espace2">
+        <h1>Mon grand Twitter</h1>
+        <a href="https://www.twitter.com"><img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1259px-Twitter_Bird.svg.png" alt="Twitter revient bientot"></a>
+      </div>
+      <div class="espace3">
+        <h1></a>Mon Instagram</h1>
+        <a href="https://www.instagram.com"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/220px-Instagram_logo_2016.svg.png" alt="Instagram revient bientot!"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
