@@ -1,0 +1,205 @@
+.header {
+  height: 190px;
+  background-color: #2F4858;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: flex;
+}
+
+img {
+  margin: 30px;
+  width: 110px;
+  height: 150px;
+  margin-top: 25px
+}
+
+.infos {
+  text-align: center;
+  color: White;
+  margin: auto;
+
+}
+
+.infos p {
+  font-size: 20px;
+  line-height: 17px;
+}
+
+
+
+body {
+  margin: 0px
+}
+
+#phrase1 {
+  font-weight: bold;
+  font-size: 23px;
+  padding-right: 40px;
+}
+
+#phrase2 {
+  font-size: 36px;
+  font-weight: bold;
+  padding-right: 30px;
+
+}
+
+#phrase3 {
+  font-style: italic;
+  padding-right: 30px;
+  font-weight:lighter;
+
+}
+
+
+
+.corps {
+  display: flex;
+}
+
+
+.bandeau {
+  background-color: #86BBD8;
+  width: 20%;
+  height: 470px;
+  margin-left: 150px;
+  border-top: 3px solid #9FE694;
+  line-height: 20px;
+
+
+
+}
+
+
+.listes {
+  color: black;
+  font-size: 17px;
+  padding-right: 10px;
+  line-height: 25px;
+
+}
+
+.ul {
+  padding-left: 0px;
+}
+
+.coordonnées {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3A5768;
+  padding-left: 10px;
+
+}
+
+.liste {
+  list-style: none;
+  line-height: 25px;
+  padding-top: 7px;
+  margin-left: 15px
+}
+
+
+
+.compétences {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3A5768;
+  margin-right: 30px;
+  width:200px;
+  padding-left: 10px;
+  padding-bottom: 5px
+}
+
+.Loisirs {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 18px;
+  color: #3A5768;
+  padding-left: 10px;
+}
+
+
+
+.fondblanc {
+  width: 100%;
+  margin-right: 150px;
+  background-color: #FAF8F8;
+
+
+}
+
+.centrepage {
+  line-height: 17px;
+}
+
+
+#experience {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+.titreposte {
+  font-size: 25px;
+  margin-left: 15px;
+  font-weight: bold;
+  border-bottom: solid 3px #9FE694;
+  padding-bottom: 5px;
+  width: 50%
+}
+
+.infoposte {
+  margin-left: 15px;
+  font-style: italic;
+}
+
+.descriposte {
+  margin-left: 15px;
+}
+
+footer {
+  background-color: #FAF8F8;
+  margin: 0px 150px 0px 150px;
+  height: 300px;
+  color: black;
+  border: solid 2px black;
+}
+
+.conteneurfooter {
+  display: flex;
+  justify-content: space-around;
+}
+
+.espace1 img {
+  width: auto;
+}
+
+.espace2 img {
+  width: auto;
+}
+
+.espace3 img {
+  width: auto;
+
+}
+
+.espace3 p {
+  padding-right: 40px;
+}
+
+.espace1 {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.espace2 {
+  margin-left: 40px;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.espace3 {
+  font-family: 'Permanent Marker', cursive;
+}
